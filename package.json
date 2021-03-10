@@ -1,0 +1,14 @@
+{
+  "name": "challenge-template",
+  "version": "1.0.0",
+  "description": "challenge template",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js --reporter spec --timeout 10000"
+  },
+  "author": "Cristian Incarnato",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
+}

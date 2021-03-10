@@ -114,9 +114,9 @@ function getKnightBlackPositions(knight){
     }
     
     if(column - 2 >= 0) {
-        if(row + 2 <=8)
+        if(row + 1 <=8)
             positions.push(letters[column - 2]+(row + 1))
-        if(row - 2 >=1)
+        if(row - 1 >=1)
             positions.push(letters[column - 2]+(row - 1))
     }
 
